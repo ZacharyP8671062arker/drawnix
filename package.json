@@ -14,7 +14,8 @@
     "affected:test": "nx affected --target=test",
     "affected:lint": "nx affected --target=lint",
     "affected:build": "nx affected --target=build",
-    "clean": "nx reset && rm -rf dist node_modules/.cache"
+    "clean": "nx reset && rm -rf dist node_modules/.cache",
+    "clean:full": "nx reset && rm -rf dist node_modules"
   },
   "dependencies": {
     "@angular/animations": "^17.0.0",
